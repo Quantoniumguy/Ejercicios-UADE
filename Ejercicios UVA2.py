@@ -1,3 +1,4 @@
+import os
 #Ejercicio 1
 #Pseudocodigo:
 #Ingresar el nombre del usuario del programa y saludarlo. Ejemplo: si el usuario se llama Juan, se debe mostrar el mensaje “Hola Juan”.
@@ -71,3 +72,4 @@ print("El promedio del dinero ingresado del usuario 3 es: ", (promedio3), "%")
 
 
 
+os.system("pause")  

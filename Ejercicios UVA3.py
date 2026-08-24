@@ -1,3 +1,4 @@
+import os
 #Ejercicios UVA 3
 
 #Ejercio 1 a
@@ -55,3 +56,5 @@ iva = valor_producto * 0.21
 precio_final = valor_producto + iva
 print("El iva del producto es: ", (iva))
 print("El precio final del producto con IVA es: ", (precio_final))
+
+os.system("pause")

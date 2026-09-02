@@ -71,5 +71,4 @@ print("El promedio del dinero ingresado del usuario 3 es: ", (promedio3), "%")
 #Salidas: Suma total del dinero ingresado y promedio del dinero ingresado por cada usuario.
 
 
-
 os.system("pause")  

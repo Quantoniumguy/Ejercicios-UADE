@@ -7,7 +7,7 @@ import os
 #3) Crear una variable para almacenar la posición del mayor número ingresado.
 #4) Crear un bucle que se repita 10 veces para pedir al usuario que ingrese un número entero.
 #5) Dentro del bucle, agregar el número ingresado a la lista.
-#6) Si se ingresa mas de una vez el mismo numero, se debe informar la primera posición en la que se ingreso el numero mayor.
+#6) Si se ingresa mas de una vez el mismo numero, se debe informar la primera posición en la que se ingreso el numero mayor y se solicita al usuario que ingrese otro número.
 #7) Comparar el número ingresado con el numero mayor almacenado. Si es mayor, actualizar el numero mayor y la posición.
 #8) Después del bucle, calcular el promedio de los números ingresados.
 #9) Imprimir el promedio, el numero mayor y la posición del numero mayor ingresado.
@@ -17,9 +17,11 @@ numeros = []
 mayor = None
 posicion_mayor = None
 
+#Ciclo para ingresar 10 números enteros dentro de la lista
 while len(numeros) < 10:
 
     try:
+        #Solicitud de numero al usuario
         numero = int(input(f"Ingrese un número entero {len(numeros) + 1}: "))
 
         # Verificar si el número ya fue ingresado
